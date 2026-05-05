@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eccho — Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #1a1a2e; line-height: 1.7; padding: 40px 20px; max-width: 720px; margin: 0 auto; }
+        h1 { font-size: 28px; margin-bottom: 8px; }
+        h2 { font-size: 20px; margin-top: 32px; margin-bottom: 12px; color: #1a1a2e; }
+        p, li { font-size: 15px; margin-bottom: 12px; color: #333; }
+        ul { padding-left: 24px; margin-bottom: 16px; }
+        .date { font-size: 14px; color: #666; margin-bottom: 32px; }
+        a { color: #534AB7; }
+    </style>
+</head>
+<body>
+    <h1>Eccho — Privacy Policy</h1>
+    <p class="date">Effective date: 5 May 2026</p>
+
+    <p>Eccho ("the App", "we", "our") is a language learning application developed and operated by an independent developer. This policy explains what data the App collects, how it is used, and your rights regarding that data.</p>
+
+    <h2>1. Data we collect</h2>
+
+    <p><strong>Voice recordings.</strong> When you use the recording feature, your voice is captured temporarily on your device. The audio file is sent to OpenAI's Whisper API for transcription, then deleted from the device once processing is complete. We do not store your voice recordings on any server.</p>
+
+    <p><strong>Transcripts and translations.</strong> The text produced from your recordings, along with translations, is stored locally on your device in a private database. This data never leaves your device except when sent to translation APIs (DeepL, Google Translate) to generate translations.</p>
+
+    <p><strong>AI conversation data.</strong> When you use the AI conversation feature, your spoken text is transcribed and sent to OpenAI's GPT API to generate responses. Conversation history is stored locally on your device. OpenAI may process this data according to their own privacy policy.</p>
+
+    <p><strong>Usage data.</strong> We track basic usage counts (number of sessions, conversations, reviews) locally on your device using SharedPreferences. This data is used solely to enforce free tier limits and is not transmitted to any server.</p>
+
+    <p><strong>Subscription data.</strong> If you subscribe to Premium or Pro, your subscription is managed entirely through Google Play Billing. We do not collect or store your payment information. Google handles all payment processing.</p>
+
+    <p><strong>Firebase Analytics.</strong> We use Firebase Analytics to collect anonymous, aggregated usage statistics such as screen views and feature usage. This data cannot identify you personally. You can opt out of analytics by disabling usage data sharing in your device's Google settings.</p>
+
+    <p><strong>Firebase Remote Config.</strong> We use Firebase Remote Config to manage app settings remotely (such as maintenance mode). This does not collect personal data.</p>
+
+    <h2>2. Third-party services</h2>
+    <p>The App uses the following third-party services, each with their own privacy policies:</p>
+    <ul>
+        <li><strong>OpenAI</strong> (speech transcription via Whisper, AI conversations via GPT) — <a href="https://openai.com/privacy">openai.com/privacy</a></li>
+        <li><strong>DeepL</strong> (text translation) — <a href="https://www.deepl.com/privacy">deepl.com/privacy</a></li>
+        <li><strong>Google Cloud</strong> (text-to-speech, translation fallback) — <a href="https://cloud.google.com/privacy">cloud.google.com/privacy</a></li>
+        <li><strong>Google Firebase</strong> (analytics, remote config, Firestore) — <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a></li>
+        <li><strong>Google Play Billing</strong> (subscription management) — <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+    </ul>
+
+    <h2>3. How we use your data</h2>
+    <p>Your data is used exclusively for the following purposes:</p>
+    <ul>
+        <li>Transcribing your voice recordings into text</li>
+        <li>Translating text between your chosen languages</li>
+        <li>Generating AI conversation responses tailored to your learning level</li>
+        <li>Producing text-to-speech audio for pronunciation practice</li>
+        <li>Tracking usage to enforce subscription tier limits</li>
+        <li>Improving app performance through anonymous analytics</li>
+    </ul>
+    <p>We do not sell, share, or transfer your personal data to any third party for advertising or marketing purposes.</p>
+
+    <h2>4. Data storage and security</h2>
+    <p>All personal data (recordings, transcripts, flashcards, conversation history) is stored locally on your device in an encrypted Android Room database. Data sent to third-party APIs (OpenAI, DeepL, Google) is transmitted over encrypted HTTPS connections.</p>
+    <p>We do not operate any backend servers that store your personal data. Your data lives on your device only.</p>
+
+    <h2>5. Data retention</h2>
+    <p>Your transcripts, translations, flashcards, and conversation sessions are retained on your device until you choose to delete them within the App, or until you uninstall the App. Clearing the App's data or cache from your device settings will also remove all stored data.</p>
+    <p>Translation caches can be cleared from Settings within the App.</p>
+
+    <h2>6. Children's privacy</h2>
+    <p>The App is not directed at children under 13. We do not knowingly collect personal data from children under 13. If you believe a child under 13 has provided us with personal data, please contact us and we will take steps to delete such information.</p>
+
+    <h2>7. Your rights</h2>
+    <p>You have the right to:</p>
+    <ul>
+        <li><strong>Access your data</strong> — all your data is stored locally on your device and accessible within the App.</li>
+        <li><strong>Delete your data</strong> — you can delete individual sessions, clear caches, or uninstall the App to remove all data.</li>
+        <li><strong>Opt out of analytics</strong> — disable usage data sharing in your device's Google settings.</li>
+        <li><strong>Cancel your subscription</strong> — manage or cancel your subscription at any time through Google Play Store settings.</li>
+    </ul>
+
+    <h2>8. Changes to this policy</h2>
+    <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated effective date. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
+
+    <h2>9. Contact</h2>
+    <p>If you have any questions about this Privacy Policy or your data, please contact us at:</p>
+    <p><strong>Email:</strong> privacy@eccho.app</p>
+
+    <p style="margin-top: 40px; font-size: 13px; color: #999;">© 2026 Eccho. All rights reserved.</p>
+</body>
+</html>
